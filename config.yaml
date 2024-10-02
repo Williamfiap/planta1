@@ -1,0 +1,21 @@
+elements:
+  - id: Q9PecADAcb384zxd8jGG-7
+    query: monitor.name:8.8.8.8 AND state.status:up
+    style:
+      color: red
+  - id: Q9PecADAcb384zxd8jGG-10
+    query: monitor.name:8.8.8.8 AND state.status:up
+    style:
+      color: red
+  - id: Q9PecADAcb384zxd8jGG-4
+    query: monitor.name:8.8.8.8 AND state.status:up
+    style:
+      color: red
+  - id: Q9PecADAcb384zxd8jGG-9
+    query: monitor.name:8.8.8.8 AND state.status:up
+    style:
+      color: red
+  - id: Q9PecADAcb384zxd8jGG-8
+    query: monitor.name:8.8.8.8 AND state.status:up
+    style:
+      color: red
