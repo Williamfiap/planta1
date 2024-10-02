@@ -1,0 +1,60 @@
+---
+
+#------------------------------------------------------------------------------
+# YAML Aliases to simplify maintenance
+
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+cellIdPreamble: "cell-"
+cells:
+  drawio:
+    link:
+      url: "https://app.diagrams.net/?p=svgdata"
+  docs:
+    link:
+      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
+  router_1:
+    id: "Q9PecADAcb384zxd8jGG-4"
+    dataRef: "ping-status-1"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 1}
+        - {color: "red", level: 0}
+    link: *grafana-home
+  router_2:
+    id: "Q9PecADAcb384zxd8jGG-7"
+    dataRef: "ping-status-2"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 1}
+        - {color: "red", level: 0}
+    link: *grafana-home
+  router_3:
+    id: "Q9PecADAcb384zxd8jGG-8"
+    dataRef: "ping-status-3"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 1}
+        - {color: "red", level: 0}
+    link: *grafana-home
